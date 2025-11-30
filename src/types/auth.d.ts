@@ -25,3 +25,9 @@ export interface IAuthError {
         message: string;
     };
 }
+
+export interface IAuthState {
+    _id: string;
+    name: string;
+    email: string;   
+}
